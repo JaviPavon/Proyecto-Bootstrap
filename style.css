@@ -17,14 +17,17 @@
 rect{
     fill: #149ddd;
 }
-body{
-    background-color: #F5F8FD;
-    width: 100%;
-    height: 120vh;
+
+#cabecera{
     background: url("PROYECTO/hero-bg.jpeg") top center;
     background-size: auto;
     background-size: cover;
-    background-attachment: scroll;
+}
+
+body{
+    background-color: #F5F8FD;
+    width: 100%;
+    height: 130vh;
 }
 #cabecera h1{
     font-family: Raleway;
@@ -62,17 +65,27 @@ p{
 }
 
 .img-fluid {
-    max-width: 100%;
     height: auto;
 }
 
-.bi{
+.flecha{
     color: #149ddd;
 }
 ul {
     list-style: none;
     padding: 0;
 }
+
+.sonrisa{
+    color: #149ddd;
+    width: 50px;
+}
+
+
+
+
+
+
 
 .bi-list{
     float: left;
