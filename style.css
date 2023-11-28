@@ -118,6 +118,11 @@ ol {
     width: 100%;
 }
 
+#contenidoGris{
+    background-color: #F5F8FD;
+    padding: 20px;;
+}
+
 .serviceIcono{
     font-size: 30px;
     color: white;
@@ -135,3 +140,38 @@ ol {
     
 }
 
+.carousel .boton{
+    border: 3px solid #149ddd;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel .boton .active{
+    color: #149ddd;
+}
+
+.carousel img{
+    width: 100px;
+}
+
+
+.carousel .comillas{
+    font-size: 50px;
+}
+
+.contactIcono{
+    font-size: 30px;
+    color: #149ddd;
+}
+
+.contact{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: #dff3fc;
+    border-radius: 50%;
+    
+}
