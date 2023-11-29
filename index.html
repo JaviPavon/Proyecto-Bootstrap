@@ -10,7 +10,45 @@
     <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    
+
+        <!-- Icono para ir el menu -->
+
+      <div class="position-relative">
+        <div class="botonmenu p-4 d-xl-none position-fixed end-0">
+          <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <div class="botonAbajoDer"><i class="botonmenu bi mobile-nav-toggle bi-list"></i></div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Offcanvas -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+          <div class="profile text-center">
+            <img src="PROYECTO/profile-img.jpeg" alt="" class="w-50 border border-5 img-fluid rounded-circle">
+            <h2 class="text-light">Alex Smith</h2>
+            <div class="text-center">
+              <a href="#" class="twitter"><i class="red text-light bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="red text-light bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="red text-light bi bi-instagram"></i></a>
+              <a href="#" class="skype"><i class="red text-light bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="red text-light bi bi-linkedin"></i></a>
+            </div>
+          </div>
+            <nav id="navbar" class="p-3 nav-menu navbar">
+              <ul>
+                <li><a href="#hero" class="pb-3 pt-3 nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a></li>
+                <li><a href="#about" class="pb-3 nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a></li>
+                <li><a href="#resume" class="pb-3 nav-link scrollto"><i class="bi bi-file-earmark"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio" class="pb-3 nav-link scrollto"><i class="bi bi-book-half"></i> <span>Portfolio</span></a></li>
+                <li><a href="#services" class="pb-3 nav-link scrollto"><i class="bi bi-hdd-stack"></i> <span>Services</span></a></li>
+                <li><a href="#contact" class="pb-3 nav-link scrollto"><i class="bi bi-envelope"></i> <span>Contact</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
       
         <div id="cabecera" class="col text-white">
           <h1>Alex Smith</h1>
@@ -22,9 +60,9 @@
     
         <div class="container-fluid" >
 
-        <!-- About Facts -->
+        <!-- About/Facts -->
           <div id="contenidoBlanco">
-          <div class="row pt-5">
+          <div id="about" class="row pt-5">
             <div class="col">
               <h2>About</h2>
               <svg width="80" height="20">
@@ -58,7 +96,7 @@
             </div>
           </div>
 
-          <div class="row pt-5">
+          <div id="facts" class="row pt-5">
             <div class="col">
               <h2>Facts</h2>
               <svg width="80" height="20">
@@ -140,7 +178,7 @@
         
         <!-- Skills -->
         <div id="contenidoGris">
-          <div class="row pt-5">
+          <div id="skills" class="row pt-5">
             <div class="col">
               <h2>Skills</h2>
               <svg width="80" height="20">
@@ -239,7 +277,7 @@
 
         <!-- Resume -->
         <div id="contenidoBlanco">
-          <div class="row pt-5">
+          <div id="resume" class="row pt-5">
             <div class="col">
               <h2>Resume</h2>
               <svg width="80" height="20">
@@ -306,7 +344,7 @@
 
         <!-- Portfolio -->
         <div id="contenidoGris">
-          <div class="row pt-5">
+          <div id="portfolio" class="row pt-5">
             <div class="col">
               <h2>Portfolio</h2>
               <svg width="80" height="20">
@@ -332,9 +370,9 @@
           
 
         </div>
-        <!-- Service -->
+        <!-- Services -->
         <div id="contenidoBlanco">
-          <div class="row pt-5">
+          <div id="services" class="row pt-5">
             <div class="col">
               <h2>Services</h2>
               <svg width="80" height="20">
@@ -442,7 +480,7 @@
         <!-- Testimonials -->
         <div id="contenidoGris">
           
-          <div class="row pt-5">
+          <div id="testimonials" class="row pt-5">
             <div class="col">
               <h2>Testimonials</h2>
               <svg width="80" height="20">
@@ -769,7 +807,7 @@
 
         <!-- contact -->
         <div id="contenidoBlanco">
-          <div class="row">
+          <div id="contact" class="row">
             <div class="row pt-5">
               <div class="col">
                 <h2>Contact</h2>
@@ -781,8 +819,8 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-12 col-xl-6 shadow p-5">
+          <div class="row pb-5 m-3">
+            <div class="col-lg-5  shadow p-5">
 
               <div class="row p-3">
                 <div class="col-3 d-flex align-items-center flex-column">
@@ -819,11 +857,11 @@
 
               <div class="row p-3 text-center">
                 <div class="col">
-                  <img src="PROYECTO/mapa.png" alt="">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 300px;" allowfullscreen=""></iframe>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-xl-6 shadow p-5">
+            <div class="col-lg-7 mt-5 mt-lg-0 shadow p-5">
 
               <form action="">
                 <div class="mb-3">
@@ -850,6 +888,29 @@
             </div>
           </div>
 
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+
+      <footer id="footer">
+        <div class="container p-3 text-center">
+          <div class="copyright">
+            © Copyright <strong><span>iPortfolio</span></strong>
+          </div>
+          <div>
+            Designed by <a href="">BootstrapMade</a>
+          </div>
+        </div>
+      </footer>
+      <!-- Icono para ir al inicio -->
+
+      <div class="position-relative">
+        <div class="botonAD p-4 position-fixed bottom-0 end-0">
+          <a href="#">
+            <div class="botonAbajoDer"><i class="flechaArriba bi bi-arrow-up-short"></i></div>
+          </a>
         </div>
       </div>
 
