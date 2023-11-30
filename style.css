@@ -239,3 +239,10 @@ footer{
     background: #212431;
     border-radius: 50%;
 }
+
+.menupc{
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    background-color: #040b14;
+}
