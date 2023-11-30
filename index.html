@@ -22,7 +22,7 @@
       </div>
 
       <!-- Offcanvas -->
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="menu offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-body">
           <div class="row text-center">
             <div class="col-12 p-2">
@@ -45,7 +45,7 @@
               <div class="col-9 offset-1">
                 <nav id="navbar" class="nav-menu navbar">
                   <ul>
-                    <li><a href="#" class="pb-3 pt-3 nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a></li>
+                    <li><a href="#" class="pb-3 pt-3 nav-link scrollto active" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-house"></i> <span>Home</span></a></li>
                     <li><a href="#about" class="pb-3 nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a></li>
                     <li><a href="#resume" class="pb-3 nav-link scrollto"><i class="bi bi-file-earmark"></i> <span>Resume</span></a></li>
                     <li><a href="#portfolio" class="pb-3 nav-link scrollto"><i class="bi bi-book-half"></i> <span>Portfolio</span></a></li>
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
 
       
         <div id="cabecera" class="col text-white">
@@ -70,865 +70,903 @@
     
         <div class="container-fluid" >
 
-        <!-- About/Facts -->
+        <div class="row">
+
+          <div class="col-12 col-xl-3">
+            <!-- Offcanvas -->
+
+            <div class="menu d-xl-block d-none row text-center">
+              <div class=" col-12 p-2">
+                <img src="PROYECTO/profile-img.jpeg" alt="" class="w-50 border border-5 img-fluid rounded-circle">
+                <h2 class="text-light">Alex Smith</h2>
+              </div>
+                <div class="col-12">
+
+                  <div class="row">
+                    <div class="col-2 offset-1"><a href="#" class="twitter"><i class="red text-light bi bi-twitter"></i></a></div>
+                    <div class="col-2"><a href="#" class="facebook"><i class="red text-light bi bi-facebook"></i></a></div>
+                    <div class="col-2"><a href="#" class="instagram"><i class="red text-light bi bi-instagram"></i></a></div>
+                    <div class="col-2"><a href="#" class="skype"><i class="red text-light bi bi-skype"></i></a></div>
+                    <div class="col-2"><a href="#" class="linkedin"><i class="red text-light bi bi-linkedin"></i></a></div>
+                  </div>
+
+                </div>
+            
+              <div class="row">
+                <div class="col-9 offset-1">
+                  <nav id="navbar" class="nav-menu navbar">
+                    <ul>
+                      <li><a href="#" class="pb-3 pt-3 nav-link scrollto active" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-house"></i> <span>Home</span></a></li>
+                      <li><a href="#about" class="pb-3 nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a></li>
+                      <li><a href="#resume" class="pb-3 nav-link scrollto"><i class="bi bi-file-earmark"></i> <span>Resume</span></a></li>
+                      <li><a href="#portfolio" class="pb-3 nav-link scrollto"><i class="bi bi-book-half"></i> <span>Portfolio</span></a></li>
+                      <li><a href="#services" class="pb-3 nav-link scrollto"><i class="bi bi-hdd-stack"></i> <span>Services</span></a></li>
+                      <li><a href="#contact" class="pb-3 nav-link scrollto"><i class="bi bi-envelope"></i> <span>Contact</span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-12 col-xl-9">
+            <!-- About/Facts -->
           <div id="contenidoBlanco">
-          <div id="about" class="row pt-5">
-            <div class="col">
-              <h2>About</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-
-          <div class="row pt-3">
-            <div class="col-12 col-lg-5">
-              <img src="PROYECTO/profile-img.jpeg" class="img-fluid" alt="">
-            </div>
-            <div class="col-12 col-lg-7 pt-4">
-              <h2>UI/UX Designer & Web Developer</h2>
-              
-              <p class="pt-3"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</i></p>
-            
-              <ul>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Birthday:</b> 1 May 1995</p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Website:</b> www.example.com</p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Phone:</b> <a href="">+123 456 7890</a></p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>City:</b> New York, USA</p></li>
-                  </div>
-                  <div class="col-lg-6">
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Age:</b> 30</p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Degree:</b> Master</p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>PhEmailone:</b> email@example.com</p></li>
-                    <li><p><i class="flecha bi bi-chevron-right"></i> <b>Freelance:</b> Available</p></li>
-                  </div>
-                </div>
-              </ul>
-              <p class="pt-3"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</i></p>
-
-            </div>
-          </div>
-
-          <div id="facts" class="row pt-5">
-            <div class="col">
-              <h2>Facts</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-
-          <div class="row">
-
-
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="d-flex align-items-end flex-column col-4">
-                  <i class="iconoFact bi bi-emoji-smile"></i>
-                </div>
-                <div class="fact col-8">
-                  <h4 >
-                    <b>232</b>
-                  </h4>
-                  <h5>
-                    <b>Happy Clients</b> consequuntur quae
-                  </h5>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="d-flex align-items-end flex-column col-4">
-                  <i class="iconoFact bi bi-journal-richtext"></i>
-                </div>
-                <div class="fact col-8">
-                  <h4 >
-                    <b>521</b>
-                  </h4>
-                  <h5>
-                    <b>Projects</b> adipisci atque cum quia aut
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="d-flex align-items-end flex-column col-4">
-                  <i class="iconoFact bi bi-headset"></i>
-                </div>
-                <div class="fact col-8">
-                  <h4 >
-                    <b>1453</b>
-                  </h4>
-                  <h5>
-                    <b>Hours Of Support</b> aut commodi quaerat
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="d-flex align-items-end flex-column col-4">
-                  <i class="iconoFact bi bi-people"></i>
-                </div>
-                <div class="fact col-8">
-                  <h4 >
-                    <b>32</b>
-                  </h4>
-                  <h5>
-                    <b>Hard Workers</b> rerum asperiores dolor
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Skills -->
-        <div id="contenidoGris">
-          <div id="skills" class="row pt-5">
-            <div class="col">
-              <h2>Skills</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>HTML</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>100%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 100%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>CSS</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>90%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>JAVASCRIPT</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>75%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 75%"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>PHP</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>80%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 100%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>WORDPRESS/CMS</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>90%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row pt-5">
-                <div class="col-2">
-                  <b>PHOTOSHOP</b>
-                </div>
-                <div class="col-2 offset-8">
-                  <b>55%</b>
-                </div>
-                <div class="col-12">
-                  <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 75%"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Resume -->
-        <div id="contenidoBlanco">
-          <div id="resume" class="row pt-5 d-fle">
-            <div class="col">
-              <h2>Resume</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-lg-6">
-              <h3>Sumary</h3>
-              <div class="position-relative">
-                <div class="resume">
-                  
-                    <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
-                  
-                  <h4>Alex Smith</h4>
-                  <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia maxime magni dolores sit quisquam ut quis saepe tenetur, in obcaecati qui odio possimus illum aliquam. Perferendis quas consequatur eos quidem?</i>
-                    <ol>
-                      <li>Portland par 127</li>
-                      <li><a href="">(123) 456-7891</a></li>
-                      <li>alice@example.com</li>
-                  </ol>
-                </div>
-              </div>
-              <h3>Education</h3>
-              <div class="position-relative">
-              <div class="resume">
-                <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
-
-                <h4>MASTER OF FINE ARTS & GRAPHIC DESIGN</h4>
-                <div class="col-3 fondoFecha text-center"><b>2015 - 2016</b></div>
-                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ex. Ipsam unde vel adipisci? Quidem debitis deleniti delectus quas minus, temporibus nisi impedit quibusdam illum. Doloremque laboriosam odio minima nostrum!
-              </div>
-              <div class="position-relative">
-              <div class="resume">
-                <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
-
-                <h4>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h4>
-                <div class="col-3 fondoFecha text-center"><b>2010 - 2014</b></div>
-                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ex. Ipsam unde vel adipisci? Quidem debitis deleniti delectus quas minus, temporibus nisi impedit quibusdam illum. Doloremque laboriosam odio minima nostrum!
-              </div>
-              </div>
-              </div>
-              </div>
-            <div class="col-12 col-lg-6 pt-3">
-              <h3>Professional Experience</h3>
-              <div class="position-relative">
-              <div class="resume">
-                <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
-                <h4>SENIOR GRAPHIC DESIGN SPECIALIST</h4>
-                <div class="col-3 fondoFecha text-center"><b>2019 - Present</b></div>
-                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
-                  <ol>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dicta enim? Corrupti necessitatibus ipsam pariatur unde, </li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia fugiat quod itaque aperiam dolor animi minus praesentium?</li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
-                  </ol>
-              </div>
-              <div class="position-relative">
-              <div class="resume">
-                <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
-
-                <h4>GRAPHIC DESIGN SPECIALIST</h4>
-                <div class="col-3 fondoFecha text-center"><b>2017 - 2018</b></div>
-                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
-                  <ol>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dicta enim? Corrupti necessitatibus ipsam pariatur unde, </li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia fugiat quod itaque aperiam dolor animi minus praesentium?</li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
-                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
-                  </ol>
-              </div>
-              </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-
-        <!-- Portfolio -->
-        <div id="contenidoGris">
-          <div id="portfolio" class="row pt-5">
-            <div class="col">
-              <h2>Portfolio</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-
-          <div class="row pt-3">
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-1.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-2.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-3.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-4.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-5.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-6.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-7.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-8.jpeg" alt=""></div>
-            <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-9.jpeg" alt=""></div>
-          </div>
-
-
-          
-
-        </div>
-        <!-- Services -->
-        <div id="contenidoBlanco">
-          <div id="services" class="row pt-5">
-            <div class="col">
-              <h2>Services</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-          
-          <div class="row">
-
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-briefcase"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-card-checklist"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-bar-chart"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-binoculars"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-brightness-high"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-            <div class="col-12 pt-4">
-
-              <div class="row">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="service"><i class="serviceIcono bi bi-calendar4-week"></i></div>
-                </div>
-                <div class="col-9">
-                  <h4>Lorem Ipsum</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-            </div>
-            
-
-          </div>
-
-        </div>
-
-      
-
-        <!-- Testimonials -->
-        <div id="contenidoGris">
-          
-          <div id="testimonials" class="row pt-5">
-            <div class="col">
-              <h2>Testimonials</h2>
-              <svg width="80" height="20">
-                <rect x="1" y="10" width="90" height="4"/>
-              </svg>
-              <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
-            </div>
-          </div>
-
-          <!-- Carousel 3 en 3 -->
-
-          <div id="carouselExampleIndicators3" class="carousel slide d-none d-xl-block">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="boton rounded-5 mx-1 active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" class="boton rounded-5 mx-1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" class="boton rounded-5 mx-1" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active ">
-                <div class="row p-5">
-                  <div class="col-3 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="col-3 mx-5">
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-3 mx-5">
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row p-5">
-                  <div class="col-3 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="col-3 mx-5">
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-3 mx-5">
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row p-5">
-                  <div class="col-3 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="col-3 mx-5">
-                    
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-3 mx-5">
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>         
-        
-          <!-- Carousel 1 en 1 -->
-
-          <div id="carouselExampleIndicators1" class="carousel slide d-xl-none ">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="boton rounded-5 mx-1" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" class="boton rounded-5 mx-1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" class="boton rounded-5 mx-1 active" aria-current="true" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" class="boton rounded-5 mx-1" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" class="boton rounded-5 mx-1" aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item">
-                <div class="row pb-5 justify-content-center">
-                  <div class="col-9 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row pb-5 justify-content-center">
-                  <div class="col-9 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <div class="row pb-5 justify-content-center">
-                  <div class="col-9 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row pb-5 justify-content-center">
-                  <div class="col-9 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row pb-5 justify-content-center">
-                  <div class="col-9 mx-5">
-
-                    <div class="row">
-                      <div class="col-12 shadow p-3">
-                        <i class="comillas bi bi-quote"></i>
-                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                          officiis hic tenetur quae quaerat ad velit ab hic</i>
-                      </div>
-
-                      <div class="col-12 text-center">
-                        <img class="rounded-circle mt-4 mb-3"
-                      src="PROYECTO/profile-img.jpeg" alt="avatar"
-                      style="width: 150px;" />
-                    <h4 class="mb-3">Jena Karlis</h4>
-                    <p class="text-muted">Store Owner</p>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- contact -->
-        <div id="contenidoBlanco">
-          <div id="contact" class="row">
-            <div class="row pt-5">
+            <div id="about" class="row pt-5">
               <div class="col">
-                <h2>Contact</h2>
+                <h2>About</h2>
                 <svg width="80" height="20">
                   <rect x="1" y="10" width="90" height="4"/>
                 </svg>
                 <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
               </div>
             </div>
-          </div>
-
-          <div class="row pb-5 m-3">
-            <div class="col-lg-5  shadow p-5">
-
-              <div class="row p-3">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="contact"><i class="contactIcono bi bi-geo-alt"></i></div>
-                </div>
-                <div class="col-9">
-                  <h3>Lorem Ipsum</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
+  
+            <div class="row pt-3">
+              <div class="col-12 col-lg-5">
+                <img src="PROYECTO/profile-img.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-7 pt-4">
+                <h2>UI/UX Designer & Web Developer</h2>
                 
-              </div>
-
-              <div class="row p-3">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="contact"><i class="contactIcono bi bi-envelope"></i></div>
-                </div>
-                <div class="col-9">
-                  <h3>Lorem Ipsum</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-              <div class="row p-3">
-                <div class="col-3 d-flex align-items-center flex-column">
-                  <div class="contact"><i class="contactIcono bi bi-phone"></i></div>
-                </div>
-                <div class="col-9">
-                  <h3>Lorem Ipsum</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
-                </div>
-                
-              </div>
-
-              <div class="row p-3 text-center">
-                <div class="col">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 300px;" allowfullscreen=""></iframe>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7 mt-5 mt-lg-0 shadow p-5">
-
-              <form action="">
-                <div class="mb-3">
-                  <h3>Your Name</h3>
-                  <input type="text" class="form-control">
-                </div>
-                    
-                <div class="mb-3">
-                  <h3>Your Email</h3>
-                  <input type="email" class="form-control">
-                </div>
-                <div class="mb-3">
-                  <h3>Message</h3>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-                </div>
-
-                <div class="text-center">
-                  <button type="submit" class="boton btn btn-primary">Send Message</button>
-                </div>
-
-              </form>
-
+                <p class="pt-3"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</i></p>
               
+                <ul>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Birthday:</b> 1 May 1995</p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Website:</b> www.example.com</p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Phone:</b> <a href="">+123 456 7890</a></p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>City:</b> New York, USA</p></li>
+                    </div>
+                    <div class="col-lg-6">
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Age:</b> 30</p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Degree:</b> Master</p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>PhEmailone:</b> email@example.com</p></li>
+                      <li><p><i class="flecha bi bi-chevron-right"></i> <b>Freelance:</b> Available</p></li>
+                    </div>
+                  </div>
+                </ul>
+                <p class="pt-3"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</i></p>
+  
+              </div>
+            </div>
+  
+            <div id="facts" class="row pt-5">
+              <div class="col">
+                <h2>Facts</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+  
+            <div class="row">
+  
+  
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="row pt-5">
+                  <div class="d-flex align-items-end flex-column col-4">
+                    <i class="iconoFact bi bi-emoji-smile"></i>
+                  </div>
+                  <div class="fact col-8">
+                    <h4 >
+                      <b>232</b>
+                    </h4>
+                    <h5>
+                      <b>Happy Clients</b> consequuntur quae
+                    </h5>
+                  </div>
+                </div>
+              </div>
+  
+  
+  
+  
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="row pt-5">
+                  <div class="d-flex align-items-end flex-column col-4">
+                    <i class="iconoFact bi bi-journal-richtext"></i>
+                  </div>
+                  <div class="fact col-8">
+                    <h4 >
+                      <b>521</b>
+                    </h4>
+                    <h5>
+                      <b>Projects</b> adipisci atque cum quia aut
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="row pt-5">
+                  <div class="d-flex align-items-end flex-column col-4">
+                    <i class="iconoFact bi bi-headset"></i>
+                  </div>
+                  <div class="fact col-8">
+                    <h4 >
+                      <b>1453</b>
+                    </h4>
+                    <h5>
+                      <b>Hours Of Support</b> aut commodi quaerat
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="row pt-5">
+                  <div class="d-flex align-items-end flex-column col-4">
+                    <i class="iconoFact bi bi-people"></i>
+                  </div>
+                  <div class="fact col-8">
+                    <h4 >
+                      <b>32</b>
+                    </h4>
+                    <h5>
+                      <b>Hard Workers</b> rerum asperiores dolor
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
+          
+          <!-- Skills -->
+          <div id="contenidoGris">
+            <div id="skills" class="row pt-5">
+              <div class="col">
+                <h2>Skills</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+  
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>HTML</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>100%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>CSS</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>90%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>JAVASCRIPT</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>75%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>PHP</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>80%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>WORDPRESS/CMS</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>90%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-2">
+                    <b>PHOTOSHOP</b>
+                  </div>
+                  <div class="col-2 offset-8">
+                    <b>55%</b>
+                  </div>
+                  <div class="col-12">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+          <!-- Resume -->
+          <div id="contenidoBlanco">
+            <div id="resume" class="row pt-5">
+              <div class="col">
+                <h2>Resume</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <h3>Sumary</h3>
+                <div class="position-relative">
+                  <div class="resume">
+                    
+                      <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
+                    
+                    <h4>Alex Smith</h4>
+                    <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia maxime magni dolores sit quisquam ut quis saepe tenetur, in obcaecati qui odio possimus illum aliquam. Perferendis quas consequatur eos quidem?</i>
+                      <ol>
+                        <li>Portland par 127</li>
+                        <li><a href="">(123) 456-7891</a></li>
+                        <li>alice@example.com</li>
+                    </ol>
+                  </div>
+                </div>
+                <h3>Education</h3>
+                <div class="position-relative">
+                <div class="resume">
+                  <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
+  
+                  <h4>MASTER OF FINE ARTS & GRAPHIC DESIGN</h4>
+                  <div class="col-3 fondoFecha text-center"><b>2015 - 2016</b></div>
+                    <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ex. Ipsam unde vel adipisci? Quidem debitis deleniti delectus quas minus, temporibus nisi impedit quibusdam illum. Doloremque laboriosam odio minima nostrum!
+                </div>
+                <div class="position-relative">
+                <div class="resume">
+                  <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
+  
+                  <h4>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h4>
+                  <div class="col-3 fondoFecha text-center"><b>2010 - 2014</b></div>
+                    <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, ex. Ipsam unde vel adipisci? Quidem debitis deleniti delectus quas minus, temporibus nisi impedit quibusdam illum. Doloremque laboriosam odio minima nostrum!
+                </div>
+                </div>
+                </div>
+                </div>
+              <div class="col-12 col-lg-6">
+                <h3>Professional Experience</h3>
+                <div class="position-relative">
+                <div class="resume">
+                  <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
+                  <h4>SENIOR GRAPHIC DESIGN SPECIALIST</h4>
+                  <div class="col-3 fondoFecha text-center"><b>2019 - Present</b></div>
+                    <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
+                    <ol>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dicta enim? Corrupti necessitatibus ipsam pariatur unde, </li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia fugiat quod itaque aperiam dolor animi minus praesentium?</li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
+                    </ol>
+                </div>
+                <div class="position-relative">
+                <div class="resume">
+                  <div class="circulo position-absolute top-0 start-0 translate-middle"></div>
+  
+                  <h4>GRAPHIC DESIGN SPECIALIST</h4>
+                  <div class="col-3 fondoFecha text-center"><b>2017 - 2018</b></div>
+                    <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>
+                    <ol>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dicta enim? Corrupti necessitatibus ipsam pariatur unde, </li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia fugiat quod itaque aperiam dolor animi minus praesentium?</li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iusto quos quisquam placeat minus fugiat magnam culpa excepturi </li>
+                    </ol>
+                </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+  
+          <!-- Portfolio -->
+          <div id="contenidoGris">
+            <div id="portfolio" class="row pt-5">
+              <div class="col">
+                <h2>Portfolio</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+  
+            <div class="row pt-3">
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-1.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-2.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-3.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-4.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-5.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-6.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-7.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-8.jpeg" alt=""></div>
+              <div class="col-md-6 col-lg-4 pt-5"><img src="PROYECTO/portfolio-9.jpeg" alt=""></div>
+            </div>
+  
+  
+            
+  
+          </div>
+          <!-- Services -->
+          <div id="contenidoBlanco">
+            <div id="services" class="row pt-5">
+              <div class="col">
+                <h2>Services</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+            
+            <div class="row">
+  
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-briefcase"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-card-checklist"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-bar-chart"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+  
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-binoculars"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-brightness-high"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 pt-4">
+  
+                <div class="row">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="service"><i class="serviceIcono bi bi-calendar4-week"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h4>Lorem Ipsum</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+              </div>
+              
+  
+            </div>
+  
+          </div>
+  
+          <!-- Testimonials -->
+          <div id="contenidoGris">
+            
+            <div id="testimonials" class="row pt-5">
+              <div class="col">
+                <h2>Testimonials</h2>
+                <svg width="80" height="20">
+                  <rect x="1" y="10" width="90" height="4"/>
+                </svg>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+              </div>
+            </div>
+  
+            <!-- Carousel 3 en 3 -->
+  
+            <div id="carouselExampleIndicators3" class="carousel slide d-none d-xl-block">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="boton rounded-5 mx-1 active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" class="boton rounded-5 mx-1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" class="boton rounded-5 mx-1" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active ">
+                  <div class="row p-5">
+                    <div class="col-3 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="col-3 mx-5">
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mx-5">
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row p-5">
+                    <div class="col-3 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="col-3 mx-5">
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mx-5">
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row p-5">
+                    <div class="col-3 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <div class="col-3 mx-5">
+                      
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mx-5">
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>         
+          
+            <!-- Carousel 1 en 1 -->
+  
+            <div id="carouselExampleIndicators1" class="carousel slide d-xl-none ">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="boton rounded-5 mx-1" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" class="boton rounded-5 mx-1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" class="boton rounded-5 mx-1 active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" class="boton rounded-5 mx-1" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" class="boton rounded-5 mx-1" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="row pb-5 justify-content-center">
+                    <div class="col-9 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row pb-5 justify-content-center">
+                    <div class="col-9 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="row pb-5 justify-content-center">
+                    <div class="col-9 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row pb-5 justify-content-center">
+                    <div class="col-9 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row pb-5 justify-content-center">
+                    <div class="col-9 mx-5">
+  
+                      <div class="row">
+                        <div class="col-12 shadow p-3">
+                          <i class="comillas bi bi-quote"></i>
+                          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                            officiis hic tenetur quae quaerat ad velit ab hic</i>
+                        </div>
+  
+                        <div class="col-12 text-center">
+                          <img class="rounded-circle mt-4 mb-3"
+                        src="PROYECTO/profile-img.jpeg" alt="avatar"
+                        style="width: 150px;" />
+                      <h4 class="mb-3">Jena Karlis</h4>
+                      <p class="text-muted">Store Owner</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+          <!-- contact -->
+          <div id="contenidoBlanco">
+            <div id="contact" class="row">
+              <div class="row pt-5">
+                <div class="col">
+                  <h2>Contact</h2>
+                  <svg width="80" height="20">
+                    <rect x="1" y="10" width="90" height="4"/>
+                  </svg>
+                  <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora excepturi officiis eos cumque eaque, odio libero omnis beatae aut reprehenderit rerum iste sit voluptas eligendi. Placeat aliquam exercitationem pariatur!</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="row pb-5 m-3"> 
+              <div class="col-12 col-lg-5 m-3 shadow p-5">
+  
+                <div class="row p-3">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="contact"><i class="contactIcono bi bi-geo-alt"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h3>Lorem Ipsum</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+                <div class="row p-3">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="contact"><i class="contactIcono bi bi-envelope"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h3>Lorem Ipsum</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+                <div class="row p-3">
+                  <div class="col-3 d-flex align-items-center flex-column">
+                    <div class="contact"><i class="contactIcono bi bi-phone"></i></div>
+                  </div>
+                  <div class="col-9">
+                    <h3>Lorem Ipsum</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quo,
+                  </div>
+                  
+                </div>
+  
+                <div class="row p-3 text-center">
+                  <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 300px;" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 m-3 shadow p-5">
+  
+                <form action="">
+                  <div class="m-3">
+                    <h3>Your Name</h3>
+                    <input type="text" class="form-control">
+                  </div>
+                      
+                  <div class="m-3">
+                    <h3>Your Email</h3>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="m-3">
+                    <h3>Message</h3>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                  </div>
+  
+                  <div class="text-center">
+                    <button type="submit" class="boton btn btn-primary">Send Message</button>
+                  </div>
+  
+                </form>
+  
+                
+              </div>
+            </div>
+  
+          </div>
+          </div>
         </div>
 
       </div>
 
       <!-- Footer -->
-
       <footer id="footer">
         <div class="container p-5">
         </div>
