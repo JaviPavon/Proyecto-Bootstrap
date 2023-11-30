@@ -110,6 +110,14 @@ ol {
     padding-left: 20PX;
 }
 
+.circulo{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #1f5297;
+    background-color: white;
+}
+
 .fondoFecha{
     background-color: #e4edf9;
 }
@@ -209,7 +217,7 @@ footer{
 }
 
 #navbar li {
-    font-size: 20px;
+    font-size: 22px;
     color: #a8a9b4;
 }
 #navbar li span:hover {
